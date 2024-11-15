@@ -4,38 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city.." required />
-        <input type="submit" value="search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Nairobi</h1>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city.." required />
+          <input type="submit" value="search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Nairobi</h1>
+          <p>
+            Thursday 16:45, cloudy
+            <br />
+            Humidity: 57%, wind: 0km/h
+          </p>
+        </div>
+        <div>⛅ 23°c</div>
+      </main>
+      <footer>
         <p>
-          Thursday 16:45, cloudy
-          <br />
-          Humidity: 57%, wind: 0km/h
+          This project was coded by
+          <a href="https://github.com/maregi-N" target="blank">Irene Ndwiga</a>
+          , is open sourced
+          <a
+            href="https://github.com/maregi-N/She-codes-project"
+            target="blank"
+          >
+            on GitHub</a
+          >
+          and
+          <a href="https://effulgent-torrone-55892b.netlify.app/" target="blank"
+            >hosted on Netlify</a
+          >
         </p>
-      </div>
-      <div>⛅ 23°c</div>
-    </main>
-    <footer>
-      <p>
-        This project was coded by
-        <a href="https://github.com/maregi-N" target="blank">Irene Ndwiga</a>
-        , is open sourced
-        <a href="https://github.com/maregi-N/She-codes-project" target="blank">
-          on GitHub</a
-        >
-        and
-        <a href="https://effulgent-torrone-55892b.netlify.app/" target="blank"
-          >hosted on Netlify</a
-        >
-      </p>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
